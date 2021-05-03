@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Counter from "./components/Counter"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  render(){
+    return(
+      <Counter />
+    )
+  }
 }
 
 export default App;
